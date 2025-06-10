@@ -2,6 +2,7 @@ name: Nightly Build And Compile Test
   
 on: 
   # Make sure it can be uploaded when a PR is requested - Vizonex
+  
   pull_request:
     tags:
       - "*"
@@ -10,7 +11,6 @@ on:
 permissions:
   contents: read
   
-
 jobs:
   build_wheels: 
     name: Build wheels 
